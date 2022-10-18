@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturant</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/8295735e09.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="navbar" class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a class="logo-name" href="#"><span>Emerald</span>Grill</a>
+                <p>Since 1978</p>
+            </div>
+            <!-- <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation"> -->
+            <div id="mobile-cta" class="mobile-menu">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </div>
+            <nav id="navigation" class="navigation">
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Close Navigation">
+                <!-- <div class="mobile-menu-exit">
+                    <i class="fa-solid fa-xmark fa-2x"></i>
+                </div> -->
+                <ul class="primary-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#chef">Chefs</a></li>
+                    <!-- <li><a href="#">Features</a></li> -->
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section id="header" class="header">
+        <div class="container">
+            <div class="left-col">
+                <h1><span>Emerald</span>Grill</h1>
+                <p>The Best Experience</p>
+                <div class="header-cta">
+                    <a href="#contact" class="header-btn">Make a Reservation</a>
+                </div>
+            </div>
+            <div class="right-col">
+                <img class="header-img" src="images/grill.jpg" alt="header img">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="left-col">
+                <div class="content">
+                    <h2 class="subhead">About us</h2>
+                    <h1 class="tagline">
+                        We Leave A Delicious Memory For You
+                    </h1>
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est ipsum, rutrum eget nisi et, fermentum dapibus nulla. Vivamus eu cursus libero. </p>
+                        <p>Mauris tempor iaculis fermentum. Donec vitae tristique tortor. Sed auctor nibh est, a mollis felis ultricies sit amet.  </p>
+                    </div>
+                </div>
+                <div class="horizontal-img">
+                    <img src="images/food1.jpg" alt="">
+                    <img src="images/food2.jpg" alt="">
+                    <img src="images/food3.jpg" alt="">
+                </div>
+            </div>
+            <div class="right-img">
+                <img src="images/restaurant_day.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="chef" class="chefs-section">
+        <div class="container">
+            <div class="content">
+                <h2 class="subhead">Our Chefs</h2>
+                <h1 class="tagline">We offer the best ingredients for you</h3>
+            </div>
+            <div class="chefs">
+                <ul>
+                    <li>
+                        <img src="images/chefs-01.jpg" alt="">
+                        <h3>Randy Walker</h3>
+                        <h4>Pastry Chef</h4>
+                    </li>
+                    <li>
+                        <img src="images/chefs-02.jpg" alt="">
+                        <h3>David Martin</h3>
+                        <h4>Barbeque Chef</h4>
+                    </li>
+                    <li>
+                        <img src="images/chefs-03.jpg" alt="">
+                        <h3>Peter Perkson</h3>
+                        <h4>Pancake Chef</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="left-col">
+                <div class="content">
+                    <h2 class="subhead">Contact Us</h2>
+                    <h1 class="tagline">Here You Can Make A Reservation Or Just walk in to our cafe</h1>
+                    <div class="para">
+                        <p>Donec pretium est orci, non vulputate arcu hendrerit a. Fusce a eleifend riqsie, namei sollicitudin urna diam, sed commodo purus porta ut.</p>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="phone">
+                        <h3>Phone Numbers</h2>
+                        <a href="#">080-090-0990</a>
+                        <a href="#">080-090-0880</a>
+                    </div>
+                    <div class="email">
+                        <h3>Emails</h3>
+                        <a href="#">hello@company.com</a>
+                        <a href="#">hello@company.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="table-reservation">
+                    <h2>Table Reservation</h2>
+                    <form action="">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+    
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+    
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone">
+    
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+    
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    
+                        <input type="submit" value="Make a Reservation">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <section id="footer" class="footer">
+        <div class="container">
+            <div class="social-icons">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin fa-2x"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram fa-2x"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo">
+                <a class="logo-name" href="#"><span>Emerald</span>Grill</a>
+            </div>
+            <div class="copyright">
+                <p>© Copyright Emerald Grill Co.    
+                    <br>
+                    Designed by Kartik    
+                </p>
+            </div>
+        </div>
+    </section>
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+              nav = document.querySelector('nav')
+              mobileBtnExit = document.getElementById('mobile-exit')
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn')
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn')
+        })
+    </script>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        // Get the navbar
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById('navigation')
+        // Get the offset position of the navbar
+        var sticky = menu.offsetTop;
+
+        // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <!-- scroll to top -->
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+</html>
