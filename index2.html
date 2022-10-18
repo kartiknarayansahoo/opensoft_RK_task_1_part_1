@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/8295735e09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="navbar" class="navbar sticky">
+    <section id="navbar" class="navbar">
         <div class="container">
             <div class="logo">
                 <a class="logo-name" href="#"><span>Emerald</span>Grill</a>
@@ -27,7 +27,7 @@
                 <ul class="primary-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#menu">Menu</a></li> -->
+                    <li><a href="#menu">Menu</a></li>
                     <li><a href="#chef">Chefs</a></li>
                     <!-- <li><a href="#">Features</a></li> -->
                     <li><a href="#contact">Contact Us</a></li>
@@ -73,7 +73,42 @@
             </div>
         </div>
     </section>
-
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="content">
+                <h2 class="subhead">Our Menu</h2>
+                <h1 class="tagline">Our selection of savoury delights</h1>
+            </div>
+            <div class="menu-items">
+                <ul>
+                    <li>
+                        <img src="images/burger.jpg" alt="">
+                        <h3>American-Style Burger</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#contact">Make a Reservation</a>
+                    </li>
+                    <li>
+                        <img src="images/pancake.jpg" alt="">
+                        <h3>French Pancake</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#contact">Make a Reservation</a>
+                    </li>
+                    <li>
+                        <img src="images/pizza.jpg" alt="">
+                        <h3 class="pizza">Italian Pizza</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#contact">Make a Reservation</a>
+                    </li>
+                    <li>
+                        <img src="images/roll.jpg" alt="">
+                        <h3>Mexican Chicken Roll</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <a href="#contact">Make a Reservation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>    
+    </section>
     <section id="chef" class="chefs-section">
         <div class="container">
             <div class="content">
@@ -149,7 +184,6 @@
             </div>
         </div>
     </section>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
     <section id="footer" class="footer">
         <div class="container">
             <div class="social-icons">
@@ -216,27 +250,6 @@
             } else {
                 navbar.classList.remove("sticky");
             }
-        }
-    </script>
-    <!-- scroll to top -->
-    <script>
-        let mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0; // For Safari
-            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
     </script>
 </body>
